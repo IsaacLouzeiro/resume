@@ -1,16 +1,19 @@
 <template>
     <section id="paper">
         <HeaderComp />
+        <ContactComp />
     </section>
 </template>
 
 <script>
 import HeaderComp from './components/HeaderComp.vue';
+import ContactComp from './components/ContactComp.vue';
 
 export default {
     name: 'App',
     components: {
-        HeaderComp
+        HeaderComp,
+        ContactComp
     }
 }
 </script>

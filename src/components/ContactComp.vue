@@ -27,15 +27,6 @@ export default {
     section {
         padding: 1.2em 0;
         border-bottom: 1px solid $color4;
-        
-        h2 {
-            font-size: 1.1em;
-            margin-bottom: .5em;
-
-            @media only screen and (max-width: 650px) {
-                font-size: 1em;
-            }
-        }
 
         p {
             padding: 5px 0;

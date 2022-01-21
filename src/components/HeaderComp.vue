@@ -35,9 +35,19 @@ export default {
         border-bottom: 1px solid $color4;
 
         .details {
+            h1 {
+                @media only screen and (max-width: 650px) {
+                    font-size: 1.4em;
+                }
+            }
+            
             span {
                 font-style: italic;
                 color: $color3;
+
+                @media only screen and (max-width: 650px) {
+                    font-size: .9em;
+                }
             }
             h4 {
                 margin-top: 5px;

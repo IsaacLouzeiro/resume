@@ -1,7 +1,7 @@
 <template>
     <section id="paper">
-        <HeaderComp />
-        <ContactComp />
+        <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :idade="idade" :local="local" :profissao="profissao" />
+        <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" />
     </section>
 </template>
 
@@ -11,6 +11,22 @@ import ContactComp from './components/ContactComp.vue';
 
 export default {
     name: 'App',
+    data() {
+        return {
+            // HeaderComp.vue
+            nome: 'Isaac Louzeiro',
+            nomeCompleto: 'Isaac Elias Louzeiro Silva das Virgens',
+            idade: '19 anos',
+            local: 'São Paulo, SP',
+            profissao: 'Desenvolvedor Front-End Jr',
+            // ContactComp.vue
+            titleContact: 'INFORMAÇÕES DE CONTATO',
+            tel: '(11) 95341-7083',
+            mail: 'isaacelias1110@gmail.com',
+            linkedin: 'linkedin.com/in/isaac-louzeiro/',
+            github: 'github.com/IsaacLouzeiro/'
+        }
+    },
     components: {
         HeaderComp,
         ContactComp

@@ -11,14 +11,12 @@
 <script>
 export default {
     name: 'ContactComp',
-    data() {
-        return {
-            title: 'INFORMAÇÕES DE CONTATO',
-            tel: '(11) 95341-7083',
-            mail: 'isaacelias1110@gmail.com',
-            linkedin: 'linkedin.com/in/isaac-louzeiro/',
-            github: 'github.com/IsaacLouzeiro/'
-        }
+    props: {
+        title: String,
+        tel: String,
+        mail: String,
+        linkedin: String,
+        github: String
     }
 }
 </script>

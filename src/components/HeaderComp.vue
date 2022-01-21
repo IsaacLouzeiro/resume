@@ -12,14 +12,12 @@
 <script>
 export default {
     name: 'HeaderComp',
-    data() {
-        return {
-            nome: 'Isaac Louzeiro',
-            nomeCompleto: 'Isaac Elias Louzeiro Silva das Virgens',
-            idade: '19 anos',
-            local: 'São Paulo, SP',
-            profissao: 'Desenvolvedor Front-End Jr'
-        }
+    props: {
+        nome: String,
+        nomeCompleto: String,
+        idade: String,
+        local: String,
+        profissao: String
     }
 }
 </script>

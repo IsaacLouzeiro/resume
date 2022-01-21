@@ -25,7 +25,8 @@ export default {
     @import '../assets/sass/colors.scss';
 
     section {
-        padding: 1em 0;
+        padding: 1.2em 0;
+        border-bottom: 1px solid $color4;
         
         h2 {
             font-size: 1.1em;

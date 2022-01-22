@@ -5,6 +5,7 @@
         <EducationComp :title="titleEducation"/>
         <SkillsComp :title="titleSkills" />
         <CoursesComp :title="titleCourses" :subTitle="subTitleCourses" :linkedin="linkedin" />
+        <ProjectsComp :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
     </section>
 </template>
 
@@ -14,6 +15,7 @@ import ContactComp from './components/ContactComp.vue';
 import EducationComp from './components/EducationComp.vue';
 import SkillsComp from './components/SkillsComp.vue';
 import CoursesComp from './components/CoursesComp.vue';
+import ProjectsComp from './components/ProjectsComp.vue';
 
 export default {
     name: 'App',
@@ -31,13 +33,17 @@ export default {
             mail: 'isaacelias1110@gmail.com',
             linkedin: 'https://linkedin.com/in/isaac-louzeiro/',
             github: 'https://github.com/IsaacLouzeiro/',
+            website: 'https://isaaclouzeiro.github.io/portfolio/',
             // EducationComp.vue
             titleEducation: 'FORMAÇÃO',
             // SkillsComp.vue
             titleSkills: 'HABILIDADES E COMPETÊNCIAS',
             // CoursesComp.vue
             titleCourses: 'CURSOS E QUALIFICAÇÕES',
-            subTitleCourses: 'Caso queira ver mais informações ou certificações obtidas, acesse o meu '
+            subTitleCourses: 'Caso queira ver mais informações ou certificações obtidas, acesse o meu ',
+            // ProjectsComp.vue
+            titleProjects: 'PROJETOS',
+            subTitleProjects: 'Abaixo estão três projetos relevantes do meu portfolio. Caso queira ver mais, acesse o meu '
             
         }
     },
@@ -46,7 +52,8 @@ export default {
         ContactComp,
         EducationComp,
         SkillsComp,
-        CoursesComp
+        CoursesComp,
+        ProjectsComp
     }
 }
 </script>
@@ -83,7 +90,7 @@ export default {
         background-color: $color5;
         width: 100%;
         max-width: 794px;
-        height: 1123px;
+        min-height: 1123px;
         padding: 1.7em;
         border: none;
 
@@ -110,6 +117,7 @@ export default {
         a {
             text-decoration: none;
             color: $color1;
+            cursor: pointer;
             transition: 0.2s;
 
             &:hover {

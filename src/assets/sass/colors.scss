@@ -1,6 +1,51 @@
 $color1: #004B63;
-$color1-opaque: #004a63f8;
 $color2: #121212;
 $color3: #30B8B2;
 $color4: #FF7A4F;
 $color5: #f3f3ef;
+
+$color1-b: #f3f3ef;
+$color2-b: #004B63;
+$color3-b: #FF7A4F;
+$color4-b: #30B8B2;
+$color5-b: #121212;
+
+body.blackTheme {
+    // App.vue
+    #app { background-color: $color3-b; color: $color1-b; }
+    #paper { background-color: $color5-b; }
+    section { border-bottom: 1px solid $color4-b; a { color: $color1-b; &:hover { color: $color3-b; } } }
+
+    // HeaderComp.vue
+    header { border-bottom: 1px solid $color4-b; .details { span { color: $color3-b; } } }
+
+    // ContactComp.vue
+    .contactComp { p { .icon { background-color: $color4-b; color: $color5-b; } } }
+
+    // CoursesComp.vue
+    .coursesComp {
+        #modal { background-color: $color1-b; .closeBtn { color: $color4-b; } hr { border: 1px solid $color4-b; } div { a { background-color: $color3-b; color: $color1-b; } } } ul { li { .flex { a { color: $color4-b; &:hover { color: $color3-b; } } } } } }
+
+    // ProjectsComp.vue
+    .projectsComp { ul { li { .flex { a { color: $color4-b; &:hover { color: $color3-b; } } } ul { .titleExp { color: $color4-b; } } } } }
+}
+
+body.whiteTheme {
+    // App.vue
+    #app { background-color: $color3; color: $color1; }
+    #paper { background-color: $color5; }
+    section { border-bottom: 1px solid $color4; a { color: $color1; &:hover { color: $color3; } } }
+
+    // HeaderComp.vue
+    header { border-bottom: 1px solid $color4; .details { span { color: $color3; } } }
+
+    // ContactComp.vue
+    .contactComp { p { .icon { background-color: $color4; color: $color5; } } }
+
+    // CoursesComp.vue
+    .coursesComp {
+        #modal { background-color: $color1; .closeBtn { color: $color4; } hr { border: 1px solid $color4; } div { a { background-color: $color3; color: $color1; } } } ul { li { .flex { a { color: $color4; &:hover { color: $color3; } } } } } }
+
+    // ProjectsComp.vue
+    .projectsComp { ul { li { .flex { a { color: $color4; &:hover { color: $color3; } } } ul { .titleExp { color: $color4; } } } } }
+}

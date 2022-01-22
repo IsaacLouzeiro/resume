@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="projectsComp">
         <h2>{{ title }}</h2>
         <p>{{ subTitle }} <a :href="website" target="_blank">Site <font-awesome-icon :icon="['fas', 'link']" /></a> ou <a :href="github" target="_blank">Github <font-awesome-icon :icon="['fas', 'link']" /></a></p>
     
@@ -64,8 +64,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../assets/sass/colors.scss';
-
     section {
         ul {
             margin: 20px 0;
@@ -87,7 +85,6 @@ export default {
                         font-size: 1.3em;
                         display: flex;
                         align-items: center;
-                        color: $color4;
 
                         .link {
                             margin-left: 2px;
@@ -99,9 +96,6 @@ export default {
                 ul {
                     margin: 0;
                     margin-bottom: 25px;
-                    .titleExp {
-                        color: $color4;
-                    }
 
                     li {
                         font-weight: 500;

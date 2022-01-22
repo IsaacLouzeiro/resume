@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="contactComp">
         <h2>{{ title }}</h2>
         <p><font-awesome-icon :icon="['fas', 'phone-alt']" class="icon"/><a>{{ tel }}</a></p>
         <p><font-awesome-icon :icon="['fas', 'envelope']" class="icon"/><a>{{ mail }}</a></p>
@@ -22,8 +22,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../assets/sass/colors.scss';
-
     section {
         p {
             padding: 5px 0;
@@ -31,8 +29,6 @@ export default {
             align-items: center;
 
             .icon {
-                background-color: $color4;
-                color: $color5;
                 padding: 3px;
                 border-radius: 3px;
                 font-size: 1.5em;

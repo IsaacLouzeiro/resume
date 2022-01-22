@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="educationComp">
         <h2>{{ title }}</h2>
 
         <div v-for="item in formacao" :key="item.formacao" class="education">
@@ -32,8 +32,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../assets/sass/colors.scss';
-
     section {
         .education {
             margin-bottom: 10px;

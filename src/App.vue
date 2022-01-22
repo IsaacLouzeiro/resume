@@ -72,11 +72,10 @@ export default {
 
     body, html, #app {
         min-height: 100%;
+        transition: .5s;
     }
     
     #app {
-        background-color: $color3;
-        color: $color1;
         padding: 2em 0;
         display: flex;
         justify-content: center;
@@ -87,7 +86,6 @@ export default {
     }
 
     #paper {
-        background-color: $color5;
         width: 100%;
         max-width: 794px;
         min-height: 1123px;
@@ -96,14 +94,12 @@ export default {
 
         @media only screen and (max-width: 650px) {
             height: 100%;
-            padding: 10px;
-            padding-bottom: 1em;
+            padding: 1.3em 10px;
         }
     }
 
     section {
         padding: 1.2em 0;
-        border-bottom: 1px solid $color4;
 
         h2 {
             font-size: 1.1em;
@@ -116,13 +112,8 @@ export default {
 
         a {
             text-decoration: none;
-            color: $color1;
             cursor: pointer;
             transition: 0.2s;
-
-            &:hover {
-                color: $color3;
-            }
         }
     }
 </style>

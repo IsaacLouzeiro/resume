@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="coursesComp">
         <div id="modal">
             <font-awesome-icon :icon="['fas', 'window-close']" class="closeBtn" @click="modalClose" />
             <hr/>
@@ -90,15 +90,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '../assets/sass/colors.scss';
-
     section {
         position: relative;
 
         #modal {
             max-width: 260px;
             height: 150px;
-            background-color: $color1;
             border-radius: 3px;
             position: absolute;
             top: 150px;
@@ -116,7 +113,6 @@ export default {
             .closeBtn {
                 font-size: 1.7em;
                 align-self: center;
-                color: $color4;
                 cursor: pointer;
 
                 &:hover {
@@ -125,8 +121,7 @@ export default {
             }
 
             hr {
-                width: 100%; 
-                border: 1px solid $color4;
+                width: 100%;
                 align-self: start;
             }
 
@@ -137,10 +132,8 @@ export default {
                 width: 100%;
                 a {
                     display: inline-block;
-                    background-color: $color3;
                     padding: 5px 10px;
                     border-radius: 4px;
-                    color: $color1;
                     font-weight: 500;
                     text-align: center;
     
@@ -167,16 +160,9 @@ export default {
                     }
 
                     a {
-                        color: $color4;
                         font-size: 1.2em;
                         cursor: pointer;
-
-                        &:hover {
-                            color: $color3;
-                        }
                     }
-
-
                 }
 
                 .courseLoad {

@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="skillsComp">
         <h2>{{ title }}</h2>
         <ul>
             <li v-for="item in skills" :key="item.skills">

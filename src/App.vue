@@ -85,8 +85,10 @@ export default {
         max-width: 794px;
         height: 1123px;
         padding: 1.7em;
+        border: none;
 
         @media only screen and (max-width: 650px) {
+            height: 100%;
             padding: 10px;
             padding-bottom: 1em;
         }

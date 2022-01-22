@@ -85,7 +85,7 @@ export default {
         position: relative;
         display: inline-block;
         width: 56px;
-        height: 25px;
+        height: 28px;
         margin: 0;
     }
 

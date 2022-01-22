@@ -4,6 +4,7 @@
         <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" />
         <EducationComp :title="titleEducation"/>
         <SkillsComp :title="titleSkills" />
+        <CoursesComp :title="titleCourses" :subTitle="subTitleCourses" :linkedin="linkedin" />
     </section>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderComp from './components/HeaderComp.vue';
 import ContactComp from './components/ContactComp.vue';
 import EducationComp from './components/EducationComp.vue';
 import SkillsComp from './components/SkillsComp.vue';
+import CoursesComp from './components/CoursesComp.vue';
 
 export default {
     name: 'App',
@@ -33,6 +35,9 @@ export default {
             titleEducation: 'FORMAÇÃO',
             // SkillsComp.vue
             titleSkills: 'HABILIDADES E COMPETÊNCIAS',
+            // CoursesComp.vue
+            titleCourses: 'CURSOS E QUALIFICAÇÕES',
+            subTitleCourses: 'Caso queira ver mais informações ou certificações obtidas, acesse o meu '
             
         }
     },
@@ -40,7 +45,8 @@ export default {
         HeaderComp,
         ContactComp,
         EducationComp,
-        SkillsComp
+        SkillsComp,
+        CoursesComp
     }
 }
 </script>
@@ -82,6 +88,7 @@ export default {
 
         @media only screen and (max-width: 650px) {
             padding: 10px;
+            padding-bottom: 1em;
         }
     }
 
@@ -101,6 +108,7 @@ export default {
         a {
             text-decoration: none;
             color: $color1;
+            transition: 0.2s;
 
             &:hover {
                 color: $color3;

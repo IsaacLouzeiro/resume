@@ -3,6 +3,7 @@
         <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :idade="idade" :local="local" :profissao="profissao" />
         <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" />
         <EducationComp :title="titleEducation"/>
+        <SkillsComp :title="titleSkills" />
     </section>
 </template>
 
@@ -10,6 +11,7 @@
 import HeaderComp from './components/HeaderComp.vue';
 import ContactComp from './components/ContactComp.vue';
 import EducationComp from './components/EducationComp.vue';
+import SkillsComp from './components/SkillsComp.vue';
 
 export default {
     name: 'App',
@@ -25,16 +27,20 @@ export default {
             titleContact: 'INFORMAÇÕES DE CONTATO',
             tel: '(11) 95341-7083',
             mail: 'isaacelias1110@gmail.com',
-            linkedin: 'linkedin.com/in/isaac-louzeiro/',
-            github: 'github.com/IsaacLouzeiro/',
+            linkedin: 'https://linkedin.com/in/isaac-louzeiro/',
+            github: 'https://github.com/IsaacLouzeiro/',
             // EducationComp.vue
-            titleEducation: 'FORMAÇÃO'
+            titleEducation: 'FORMAÇÃO',
+            // SkillsComp.vue
+            titleSkills: 'HABILIDADES E COMPETÊNCIAS',
+            
         }
     },
     components: {
         HeaderComp,
         ContactComp,
-        EducationComp
+        EducationComp,
+        SkillsComp
     }
 }
 </script>
@@ -79,12 +85,26 @@ export default {
         }
     }
 
-    h2 {
-        font-size: 1.1em;
-        margin-bottom: .5em;
+    section {
+        padding: 1.2em 0;
+        border-bottom: 1px solid $color4;
 
-        @media only screen and (max-width: 650px) {
-            font-size: 1em;
+        h2 {
+            font-size: 1.1em;
+            margin-bottom: .5em;
+
+            @media only screen and (max-width: 650px) {
+                font-size: 1em;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: $color1;
+
+            &:hover {
+                color: $color3;
+            }
         }
     }
 </style>

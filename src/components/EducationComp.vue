@@ -11,6 +11,7 @@
 
 <script>
 export default {
+    name: 'EducationComp',
     data() {
         return {
             nome: 'EducationComp',
@@ -34,9 +35,6 @@ export default {
     @import '../assets/sass/colors.scss';
 
     section {
-        padding: 1.2em 0;
-        border-bottom: 1px solid $color4;
-
         .education {
             margin-bottom: 10px;
             h4 {

@@ -95,7 +95,7 @@ export default {
 
         #modal {
             max-width: 260px;
-            height: 150px;
+            height: 130px;
             border-radius: 3px;
             position: absolute;
             top: 150px;
@@ -123,6 +123,8 @@ export default {
             hr {
                 width: 100%;
                 align-self: start;
+                margin: 0;
+                margin-top: 3px;
             }
 
             div {

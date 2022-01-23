@@ -66,6 +66,7 @@ export default {
 <style lang="scss" scoped>
     section {
         ul {
+            padding: 0;
             margin: 20px 0;
             list-style-type: none;
 
@@ -75,10 +76,10 @@ export default {
                 .flex {
                     display: flex;
                     justify-content: space-between;
+                    margin-bottom: 8px;
 
                     span {
                         font-weight: 500;
-                        margin-bottom: 5px;
                     }
 
                     a {

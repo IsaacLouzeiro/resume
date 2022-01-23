@@ -1,11 +1,19 @@
 <template>
-    <section id="paper">
-        <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :idade="idade" :local="local" :profissao="profissao" />
-        <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" />
-        <EducationComp :title="titleEducation"/>
-        <SkillsComp :title="titleSkills" />
-        <CoursesComp :title="titleCourses" :subTitle="subTitleCourses" :linkedin="linkedin" />
-        <ProjectsComp :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
+    <section id="paper" class="row g-0">
+        <div class="col-12">
+            <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :idade="idade" :local="local" :profissao="profissao" />
+        </div>
+        <div class="row col-12 col-md-6 g-0 p-0 pe-md-2">
+            <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" />
+            <ProjectsComp class="d-none d-md-block" :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
+        </div>
+
+        <div class="row h-25 col-12 col-md-6 g-0 p-0 ps-md-2">
+            <EducationComp :title="titleEducation"/>
+            <SkillsComp :title="titleSkills" />
+            <CoursesComp :title="titleCourses" :subTitle="subTitleCourses" :linkedin="linkedin" />
+            <ProjectsComp class="d-block d-md-none" :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
+        </div>
     </section>
 </template>
 
@@ -16,6 +24,9 @@ import EducationComp from './components/EducationComp.vue';
 import SkillsComp from './components/SkillsComp.vue';
 import CoursesComp from './components/CoursesComp.vue';
 import ProjectsComp from './components/ProjectsComp.vue';
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 export default {
     name: 'App',
@@ -92,7 +103,7 @@ export default {
         padding: 1.7em;
         border: none;
 
-        @media only screen and (max-width: 650px) {
+        @media only screen and (max-width: 768px) {
             height: 100%;
             padding: 1.3em 10px;
         }
@@ -102,11 +113,11 @@ export default {
         padding: 1.2em 0;
 
         h2 {
-            font-size: 1.1em;
+            font-size: 1.2em;
             margin-bottom: .5em;
 
-            @media only screen and (max-width: 650px) {
-                font-size: 1em;
+            @media only screen and (max-width: 768px) {
+                font-size: 1.1em;
             }
         }
 
@@ -115,5 +126,6 @@ export default {
             cursor: pointer;
             transition: 0.2s;
         }
+        float: left;
     }
 </style>

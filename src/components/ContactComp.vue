@@ -25,6 +25,7 @@ export default {
     section {
         p {
             padding: 5px 0;
+            margin: 0;
             display: flex;
             align-items: center;
 

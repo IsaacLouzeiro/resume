@@ -145,6 +145,7 @@ export default {
         }
         
         ul {
+            padding: 0;
             margin-top: 5px;
             list-style-type: none;
 

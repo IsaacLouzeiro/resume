@@ -23,8 +23,7 @@ body.blackTheme {
     .contactComp { p { .icon { background-color: $color4-b; color: $color5-b; } } }
 
     // CoursesComp.vue
-    .coursesComp {
-        #modal { background-color: $color1-b; .closeBtn { color: $color4-b; } hr { border: 1px solid $color4-b; } div { a { background-color: $color3-b; color: $color1-b; } } } ul { li { .flex { a { color: $color4-b; &:hover { color: $color3-b; } } } } } }
+    .coursesComp { #modal { background-color: $color3-b; .closeBtn { color: $color5-b; } hr { border: 1px solid $color5-b; } div { a { background-color: $color2-b; color: $color1-b; } } } ul { li { .flex { a { color: $color4-b; &:hover { color: $color3-b; } } } } } }
 
     // ProjectsComp.vue
     .projectsComp { ul { li { .flex { a { color: $color4-b; &:hover { color: $color3-b; } } } ul { .titleExp { color: $color4-b; } } } } }
@@ -43,8 +42,7 @@ body.whiteTheme {
     .contactComp { p { .icon { background-color: $color4; color: $color5; } } }
 
     // CoursesComp.vue
-    .coursesComp {
-        #modal { background-color: $color1; .closeBtn { color: $color4; } hr { border: 1px solid $color4; } div { a { background-color: $color3; color: $color1; } } } ul { li { .flex { a { color: $color4; &:hover { color: $color3; } } } } } }
+    .coursesComp { #modal { background-color: $color1; .closeBtn { color: $color4; } hr { border: 1px solid $color4; } div { a { background-color: $color3; color: $color1; } } } ul { li { .flex { a { color: $color4; &:hover { color: $color3; } } } } } }
 
     // ProjectsComp.vue
     .projectsComp { ul { li { .flex { a { color: $color4; &:hover { color: $color3; } } } ul { .titleExp { color: $color4; } } } } }

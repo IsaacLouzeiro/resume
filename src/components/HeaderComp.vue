@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="headerComp">
         <div class="details">
             <!-- Rounded switch -->
             <label class="switch">
@@ -43,10 +43,12 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-bottom: 1.5em;
+        padding-bottom: 1.3em;
 
         .details {
             h1 {
+                font-size: 1.7em;
+                margin: 0;
                 @media only screen and (max-width: 650px) {
                     font-size: 1.4em;
                 }
@@ -60,7 +62,11 @@ export default {
                 }
             }
             h4 {
+                font-size: 1.2em;
                 margin-top: 5px;
+                @media only screen and (max-width: 650px) {
+                    font-size: 1.1em;
+                }
             }
         }
 
@@ -84,7 +90,7 @@ export default {
     .switch {
         position: relative;
         display: inline-block;
-        width: 56px;
+        width: 50px;
         height: 28px;
         margin: 0;
     }

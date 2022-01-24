@@ -2,7 +2,7 @@
 
 # Welcome!
 
-## Here you can see about my project.
+## Here you can see a bit of my project.
 
 ![](https://github.com/IsaacLouzeiro/resume/blob/master/resume-gif.gif "Preview")
 
@@ -22,7 +22,7 @@
 
 # Bem vindo!
 
-## Aqui você consegue ver sobre o meu projeto.
+## Aqui você consegue ver um pouco do meu projeto.
 
 ![](https://github.com/IsaacLouzeiro/resume/blob/master/resume-gif.gif "Pré-visualização")
 

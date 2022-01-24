@@ -47,10 +47,10 @@ export default {
 
         .details {
             h1 {
-                font-size: 1.7em;
+                font-size: 1.8em;
                 margin: 0;
                 @media only screen and (max-width: 650px) {
-                    font-size: 1.4em;
+                    font-size: 1.7em;
                 }
             }
             

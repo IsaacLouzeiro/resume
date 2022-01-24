@@ -11,7 +11,7 @@
 
 
         <h2>{{ title }}</h2>
-        <p>{{ subTitle }} <a :href="linkedin" target="_blank">Linkedin <font-awesome-icon :icon="['fas', 'link']" class="icon"/></a></p>
+        <p class="subtitle">{{ subTitle }} <a :href="linkedin" target="_blank">Linkedin <font-awesome-icon :icon="['fas', 'link']" class="icon"/></a></p>
     
         <ul>
             <li v-for="item in courses" :key="item.courses">

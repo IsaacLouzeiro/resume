@@ -27,6 +27,9 @@ body.blackTheme {
 
     // ProjectsComp.vue
     .projectsComp { ul { li { .flex { a { color: $color4-b; &:hover { color: $color3-b; } } } ul { .titleExp { color: $color4-b; } } } } }
+
+    // subtitles
+    .subtitle { color: $color4-b; a { color: $color4-b; } }
 }
 
 body.whiteTheme {
@@ -46,4 +49,7 @@ body.whiteTheme {
 
     // ProjectsComp.vue
     .projectsComp { ul { li { .flex { a { color: $color4; &:hover { color: $color3; } } } ul { .titleExp { color: $color4; } } } } }
+
+    // subtitles
+    .subtitle { color: $color4; a { color: $color4; } }
 }

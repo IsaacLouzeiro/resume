@@ -1,7 +1,7 @@
 <template>
     <section class="projectsComp">
         <h2>{{ title }}</h2>
-        <p>{{ subTitle }} <a :href="website" target="_blank">Site <font-awesome-icon :icon="['fas', 'link']" /></a> ou <a :href="github" target="_blank">Github <font-awesome-icon :icon="['fas', 'link']" /></a></p>
+        <p class="subtitle">{{ subTitle }} <a :href="website" target="_blank">Site <font-awesome-icon :icon="['fas', 'link']" /></a> ou <a :href="github" target="_blank">Github <font-awesome-icon :icon="['fas', 'link']" /></a></p>
     
         <ul>
             <li v-for="item in projects" :key="item.projects">

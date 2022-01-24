@@ -115,10 +115,6 @@ export default {
         h2 {
             font-size: 1.2em;
             margin-bottom: .5em;
-
-            @media only screen and (max-width: 768px) {
-                font-size: 1.1em;
-            }
         }
 
         a {

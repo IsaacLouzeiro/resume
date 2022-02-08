@@ -45,6 +45,15 @@ export default {
                     descCourse: 'Aulas de língua inglesa, de acordo com o meu nível A2 Elementary, qualificado pelo EF English Live.'
                 },
                 {
+                    pdfCourse: 'https://drive.google.com/file/d/1cREvAD0uaPLbr9qdhi94xuwrezsFcGIl/view?usp=sharing',
+                    titleCourse: 'MERCADO PAGO CERTIFIED DEVELOPER FOR ONLINE PAYMENTS CHECKOUT PRO',
+                    startCourse: '09/2021',
+                    endCourse: '',
+                    instCourse: 'Mercado Pago',
+                    loadCourse: '3h',
+                    descCourse: 'Programa de Certificação de Desenvolvedores do Mercado Pago, com o foco em Checkout PRO.'
+                },
+                {
                     pdfCourse: '',
                     titleCourse: 'CURSO PROPROFISSÃO 4.0',
                     startCourse: '03/2021',

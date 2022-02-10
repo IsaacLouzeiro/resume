@@ -4,7 +4,7 @@
             <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :idade="idade" :local="local" :profissao="profissao" />
         </div>
         <div class="row col-12 col-md-6 g-0 p-0 pe-md-2">
-            <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" />
+            <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" :website="website" />
             <ProjectsComp class="d-none d-md-block" :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
         </div>
 
@@ -44,7 +44,7 @@ export default {
             mail: 'isaacelias1110@gmail.com',
             linkedin: 'https://linkedin.com/in/isaac-louzeiro/',
             github: 'https://github.com/IsaacLouzeiro/',
-            website: 'https://isaaclouzeiro.github.io/portfolio/',
+            website: 'https://isaaclouzeiro.dev.br',
             // EducationComp.vue
             titleEducation: 'FORMAÇÃO',
             // SkillsComp.vue

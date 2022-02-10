@@ -5,6 +5,7 @@
         <p><font-awesome-icon :icon="['fas', 'envelope']" class="icon"/><a>{{ mail }}</a></p>
         <p><font-awesome-icon :icon="['fab', 'linkedin-in']" class="icon"/><a :href="linkedin" target="_blank">{{ linkedin }} <font-awesome-icon :icon="['fas', 'external-link-alt']"/></a></p>
         <p><font-awesome-icon :icon="['fab', 'github']" class="icon"/><a :href="github" target="_blank">{{ github }} <font-awesome-icon :icon="['fas', 'external-link-alt']"/></a></p>
+        <p><font-awesome-icon :icon="['fas', 'window-maximize']" class="icon"/><a :href="website" target="_blank">{{ website }} <font-awesome-icon :icon="['fas', 'external-link-alt']"/></a></p>
     </section>
 </template>
 
@@ -16,7 +17,8 @@ export default {
         tel: String,
         mail: String,
         linkedin: String,
-        github: String
+        github: String,
+        website: String
     }
 }
 </script>

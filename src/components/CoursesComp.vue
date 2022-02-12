@@ -46,7 +46,7 @@ export default {
                 },
                 {
                     pdfCourse: 'https://drive.google.com/file/d/1cREvAD0uaPLbr9qdhi94xuwrezsFcGIl/view?usp=sharing',
-                    titleCourse: 'MERCADO PAGO CERTIFIED DEVELOPER FOR ONLINE PAYMENTS CHECKOUT PRO',
+                    titleCourse: 'WEBINAR CHECKOUT PRO',
                     startCourse: '09/2021',
                     endCourse: '',
                     instCourse: 'Mercado Pago',

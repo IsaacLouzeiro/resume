@@ -20,7 +20,10 @@
                     <a v-if="item.pdfCourse == ''" @click="modalScreen"><font-awesome-icon :icon="['fas', 'print']" /></a>
                     <a v-else :href="item.pdfCourse" target="_blank"><font-awesome-icon :icon="['fas', 'print']" /></a>
                 </div>
-                <p class="courseLoad">{{ item.instCourse }} - Carga horária {{ item.loadCourse }}</p>
+                <p class="courseLoad">{{ item.instCourse }} 
+                    <span v-if="item.loadCourse != ''"> - Carga horária {{ item.loadCourse }}</span>
+                    <span v-else></span>
+                </p>
                 <p>{{ item.descCourse }}</p>
             </li>
         </ul>
@@ -68,7 +71,7 @@ export default {
                     startCourse: '12/2020',
                     endCourse: '',
                     instCourse: 'ETEC Professor Basilídes de Godoy',
-                    loadCourse: '440h',
+                    loadCourse: '',
                     descCourse: 'Certificado de reconhecimento, pelo meu esforço e dedicação ao decorrer do curso.'
                 }
             ]

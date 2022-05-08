@@ -21,7 +21,7 @@ export default {
                 },
                 {
                     typeSkill: 'Desenvolvimento Web',
-                    nameSkill: 'HTML, ' + 'CSS, ' + 'SASS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'Vue JS, ' + 'SEO'
+                    nameSkill: 'HTML, ' + 'CSS, ' + 'SCSS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'Vue JS, ' + 'SEO, ' + 'Wordpress'
                 },
                 {
                     typeSkill: 'Banco de Dados',
@@ -37,7 +37,7 @@ export default {
                 },
                 {
                     typeSkill: 'Metodologia ágil',
-                    nameSkill: 'Scrum, ' + 'Trello'
+                    nameSkill: 'Scrum, ' + 'Trello, ' + 'Asana'
                 },
                 {
                     typeSkill: 'Sistema operacional',

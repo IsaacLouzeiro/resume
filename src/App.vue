@@ -5,12 +5,13 @@
         </div>
         <div class="row col-12 col-md-6 g-0 p-0 pe-md-2">
             <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" :website="website" />
+            <SkillsComp :title="titleSkills" />
             <ProjectsComp class="d-none d-md-block" :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
         </div>
 
         <div class="row h-25 col-12 col-md-6 g-0 p-0 ps-md-2">
             <EducationComp :title="titleEducation"/>
-            <SkillsComp :title="titleSkills" />
+            <JobComp :linkedin="linkedin" :title="titleJob" :subTitle="subTitleJob" />
             <CoursesComp :title="titleCourses" :subTitle="subTitleCourses" :linkedin="linkedin" />
             <ProjectsComp class="d-block d-md-none" :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
         </div>
@@ -21,6 +22,7 @@
 import HeaderComp from './components/HeaderComp.vue';
 import ContactComp from './components/ContactComp.vue';
 import EducationComp from './components/EducationComp.vue';
+import JobComp from './components/JobComp.vue';
 import SkillsComp from './components/SkillsComp.vue';
 import CoursesComp from './components/CoursesComp.vue';
 import ProjectsComp from './components/ProjectsComp.vue';
@@ -49,6 +51,9 @@ export default {
             titleEducation: 'FORMAÇÃO',
             // SkillsComp.vue
             titleSkills: 'HABILIDADES E COMPETÊNCIAS',
+            // JobComp.vue
+            titleJob: 'EXPERIÊNCIA PROFISSIONAL',
+            subTitleJob: 'Caso queira ver mais detalhes, acesse o meu ',
             // CoursesComp.vue
             titleCourses: 'CURSOS E QUALIFICAÇÕES',
             subTitleCourses: 'Caso queira ver mais informações ou certificações obtidas, acesse o meu ',
@@ -64,7 +69,8 @@ export default {
         EducationComp,
         SkillsComp,
         CoursesComp,
-        ProjectsComp
+        ProjectsComp,
+        JobComp
     }
 }
 </script>
@@ -100,6 +106,7 @@ export default {
         width: 100%;
         max-width: 794px;
         min-height: 1123px;
+        height: 100%;
         padding: 1.7em;
         border: none;
 

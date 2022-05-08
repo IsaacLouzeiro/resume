@@ -24,7 +24,7 @@ export default {
         return {
             jobs: [
                 {
-                    titleJob: 'Desenvolvedor Web Freelancer',
+                    titleJob: 'DESENVOLVEDOR WEB FREELANCER',
                     startJob: '04/2022',
                     endJob: '',
                     instJob: 'Favela Jiu-Jitsu',

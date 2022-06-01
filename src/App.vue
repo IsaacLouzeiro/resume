@@ -37,7 +37,7 @@ export default {
             // HeaderComp.vue
             nome: 'Isaac Louzeiro',
             nomeCompleto: 'Isaac Elias Louzeiro Silva das Virgens',
-            idade: '19 anos',
+            idade: '20 anos',
             local: 'São Paulo, SP',
             profissao: 'Desenvolvedor Front-End Jr',
             // ContactComp.vue

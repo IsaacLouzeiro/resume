@@ -37,11 +37,11 @@ export default {
                 },
                 {
                     typeSkill: 'Metodologia ágil',
-                    nameSkill: 'Scrum, ' + 'Trello, ' + 'Asana'
+                    nameSkill: 'Scrum'
                 },
                 {
-                    typeSkill: 'Sistema operacional',
-                    nameSkill: 'Linux, ' + 'Windows, ' + 'MacOS'
+                    typeSkill: 'Ferramenta ágil',
+                    nameSkill: 'Trello, ' + 'Asana'
                 }
             ]
         }

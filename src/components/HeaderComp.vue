@@ -7,7 +7,7 @@
             <span class="slider round"></span>
             </label>
             <h1>{{ nome }}</h1>
-            <span>{{ nomeCompleto }}, {{ idade }} | {{ local }}</span>
+            <span>{{ nomeCompleto }} | {{ local }}</span>
             <h4>{{ profissao }}</h4>
         </div>
         <div class="image"></div>
@@ -20,7 +20,6 @@ export default {
     props: {
         nome: String,
         nomeCompleto: String,
-        idade: String,
         local: String,
         profissao: String
     },

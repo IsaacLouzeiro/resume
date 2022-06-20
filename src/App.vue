@@ -1,7 +1,7 @@
 <template>
     <section id="paper" class="row g-0">
         <div class="col-12">
-            <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :idade="idade" :local="local" :profissao="profissao" />
+            <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :local="local" :profissao="profissao" />
         </div>
         <div class="row col-12 col-md-6 g-0 p-0 pe-md-2">
             <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" :website="website" />

@@ -58,7 +58,7 @@ export default {
                 },
                 {
                     pdfCourse: '',
-                    titleCourse: 'CURSO PROPROFISSÃO 4.0',
+                    titleCourse: 'PROGRAMACAO WEB JAVA',
                     startCourse: '03/2021',
                     endCourse: '07/2021',
                     instCourse: 'Instituto PROA, Senac',

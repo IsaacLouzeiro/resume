@@ -4,7 +4,7 @@
             <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :local="local" :profissao="profissao" />
         </div>
         <div class="row col-12 col-md-6 g-0 p-0 pe-md-2">
-            <ContactComp :title="titleContact" :tel="tel" :mail="mail" :linkedin="linkedin" :github="github" :website="website" />
+            <ContactComp :title="titleContact" :mail="mail" :linkedin="linkedin" :github="github" :website="website" />
             <SkillsComp :title="titleSkills" />
             <ProjectsComp class="d-none d-md-block" :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
         </div>
@@ -42,7 +42,6 @@ export default {
             profissao: 'Desenvolvedor Front-End Jr',
             // ContactComp.vue
             titleContact: 'INFORMAÇÕES DE CONTATO',
-            tel: '(11) 95341-7083',
             mail: 'isaacelias1110@gmail.com',
             linkedin: 'https://linkedin.com/in/isaac-louzeiro/',
             github: 'https://github.com/IsaacLouzeiro/',

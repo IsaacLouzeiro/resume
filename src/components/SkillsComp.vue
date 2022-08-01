@@ -24,16 +24,20 @@ export default {
                     nameSkill: 'HTML, ' + 'CSS, ' + 'SCSS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'Vue JS, ' + 'SEO, ' + 'Wordpress'
                 },
                 {
-                    typeSkill: 'Banco de Dados',
-                    nameSkill: 'SQL, ' + 'MySQL'
-                },
-                {
-                    typeSkill: 'Design',
-                    nameSkill: 'Photoshop, ' + 'Adobe XD, ' + 'Inkscape'
+                    typeSkill: 'Gerenciador de Pacotes',
+                    nameSkill: 'NPM'
                 },
                 {
                     typeSkill: 'Versionamento de código',
                     nameSkill: 'Git, ' + 'Github'
+                },
+                {
+                    typeSkill: 'Design',
+                    nameSkill: 'UI/UX, ' + 'Photoshop, ' + 'Adobe XD, ' + 'Figma'
+                },
+                {
+                    typeSkill: 'Banco de Dados',
+                    nameSkill: 'SQL, ' + 'MySQL'
                 },
                 {
                     typeSkill: 'Metodologia ágil',

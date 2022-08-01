@@ -23,19 +23,19 @@ export default {
     data() {
         return {
             jobs: [
+                // {
+                //     titleJob: 'JOVEM APRENDIZ',
+                //     startJob: '10/2021',
+                //     endJob: '',
+                //     instJob: 'Ultrafarma',
+                //     descJob: 'Trabalho com reposição de mercadorias; Crio etiquetas de alteração de preços; Ajudo os colegas de trabalho em diversas tarefas; Auxilio os clientes na loja.',
+                // },
                 {
                     titleJob: 'DESENVOLVEDOR WEB FREELANCER',
                     startJob: '04/2022',
-                    endJob: '',
+                    endJob: '07/2022',
                     instJob: 'Favela Jiu-Jitsu',
                     descJob: 'Responsável por gerenciar, criar funcionalidades e dar manutenções no site, favelajiujitsu.com e favelajiujitsu.com.br',
-                },
-                {
-                    titleJob: 'JOVEM APRENDIZ',
-                    startJob: '10/2021',
-                    endJob: '',
-                    instJob: 'Ultrafarma',
-                    descJob: 'Trabalho com reposição de mercadorias; Crio etiquetas de alteração de preços; Ajudo os colegas de trabalho em diversas tarefas; Auxilio os clientes na loja.',
                 }
             ]
         }

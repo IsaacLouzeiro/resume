@@ -23,13 +23,13 @@ export default {
     data() {
         return {
             jobs: [
-                // {
-                //     titleJob: 'JOVEM APRENDIZ',
-                //     startJob: '10/2021',
-                //     endJob: '',
-                //     instJob: 'Ultrafarma',
-                //     descJob: 'Trabalho com reposição de mercadorias; Crio etiquetas de alteração de preços; Ajudo os colegas de trabalho em diversas tarefas; Auxilio os clientes na loja.',
-                // },
+                {
+                    titleJob: 'JOVEM APRENDIZ',
+                    startJob: '10/2021',
+                    endJob: '08/2022',
+                    instJob: 'Ultrafarma',
+                    descJob: 'Ajudar os clientes quando é necessário e colegas de trabalho em suas funções, organizar os produtos nas prateleiras, entre outras funções da área de Comércio e Varejo.',
+                },
                 {
                     titleJob: 'DESENVOLVEDOR WEB FREELANCER',
                     startJob: '04/2022',

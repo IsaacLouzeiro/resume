@@ -17,11 +17,11 @@ export default {
             skills: [
                 {
                     typeSkill: 'Idioma',
-                    nameSkill: 'Inglês (A2 Básico - Elementar)'
+                    nameSkill: 'Inglês (B2 Upper Intermediate)'
                 },
                 {
                     typeSkill: 'Desenvolvimento Web',
-                    nameSkill: 'HTML, ' + 'CSS, ' + 'SCSS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'Vue JS, ' + 'SEO, ' + 'Wordpress'
+                    nameSkill: 'HTML, ' + 'CSS, ' + 'SCSS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'VueJS, ' + 'SEO, ' + 'Wordpress'
                 },
                 {
                     typeSkill: 'Gerenciador de Pacotes',
@@ -45,7 +45,7 @@ export default {
                 },
                 {
                     typeSkill: 'Ferramenta ágil',
-                    nameSkill: 'Trello, ' + 'Asana'
+                    nameSkill: 'Trello'
                 }
             ]
         }

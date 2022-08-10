@@ -38,15 +38,15 @@ export default {
             link1: 'https://drive.google.com/file/d/157c1HMG3432ZdBmELVzHVsQuTrjINUkl/view?usp=sharing',
             link2: 'https://drive.google.com/file/d/11W5p16WwlpRrYhbBoQp0DU8araZL3jpe/view?usp=sharing',
             courses: [
-                {
-                    pdfCourse: 'https://drive.google.com/file/d/1ijyNb_BU0kDiRzmmZCFB3F7erWeJHAXT/view?usp=sharing',
-                    titleCourse: 'CURSO DE INGLÊS',
-                    startCourse: '07/2021',
-                    endCourse: '12/2021',
-                    instCourse: 'Soul Bilíngue',
-                    loadCourse: '100h',
-                    descCourse: 'Aulas de língua inglesa, de acordo com o meu nível A2 Elementary, qualificado pelo EF English Live.'
-                },
+                // {
+                //     pdfCourse: 'https://drive.google.com/file/d/1ijyNb_BU0kDiRzmmZCFB3F7erWeJHAXT/view?usp=sharing',
+                //     titleCourse: 'CURSO DE INGLÊS',
+                //     startCourse: '07/2021',
+                //     endCourse: '12/2021',
+                //     instCourse: 'Soul Bilíngue',
+                //     loadCourse: '100h',
+                //     descCourse: 'Atividades relacionadas à imersão de inglês, desenvolvimento de soft skills e preparatório para intercâmbio intercultural.'
+                // },
                 {
                     pdfCourse: 'https://drive.google.com/file/d/1cREvAD0uaPLbr9qdhi94xuwrezsFcGIl/view?usp=sharing',
                     titleCourse: 'WEBINAR CHECKOUT PRO',

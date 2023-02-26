@@ -4,7 +4,7 @@
             <HeaderComp :nome="nome" :nomeCompleto="nomeCompleto" :local="local" :profissao="profissao" />
         </div>
         <div class="row col-12 col-md-6 g-0 p-0 pe-md-2">
-            <ContactComp :title="titleContact" :mail="mail" :linkedin="linkedin" :github="github" :website="website" />
+            <ContactComp :title="titleContact" :mail="mail" :linkedin="linkedin" :github="github" :website="website" :medium="medium" />
             <SkillsComp :title="titleSkills" />
             <ProjectsComp class="d-none d-md-block" :title="titleProjects" :subTitle="subTitleProjects" :website="website" :github="github" />
         </div>
@@ -39,13 +39,14 @@ export default {
             nomeCompleto: 'Isaac Elias Louzeiro Silva das Virgens',
             idade: '20 anos',
             local: 'São Paulo, SP',
-            profissao: 'Desenvolvedor Front-End Jr',
+            profissao: 'Desenvolvedor Web',
             // ContactComp.vue
             titleContact: 'INFORMAÇÕES DE CONTATO',
             mail: 'isaacelias1110@gmail.com',
             linkedin: 'https://linkedin.com/in/isaac-louzeiro/',
             github: 'https://github.com/IsaacLouzeiro/',
             website: 'https://isaaclouzeiro.dev.br',
+            medium: 'https://medium.com/@isaaclouzeiro',
             // EducationComp.vue
             titleEducation: 'FORMAÇÃO',
             // SkillsComp.vue

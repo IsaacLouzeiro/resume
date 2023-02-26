@@ -58,7 +58,7 @@ export default {
                 },
                 {
                     pdfCourse: '',
-                    titleCourse: 'PROGRAMAÇÃO WEB JAVA',
+                    titleCourse: 'PROGRAMAÇÃO WEB FULLSTACK',
                     startCourse: '03/2021',
                     endCourse: '07/2021',
                     instCourse: 'Instituto PROA, Senac',

@@ -17,6 +17,12 @@ export default {
             nome: 'EducationComp',
             formacao: [
             {
+                nomeGrad: 'FATEC - FACULDADE DE TECNOLOGIA DE FRANCO DA ROCHA',
+                tipoGrad: 'Tecnólogo em Gestão da Tecnologia da Informação (TI)',
+                dataInicio: '02/2023',
+                dataFim: '12/2025'
+            },
+            {
                 nomeGrad: 'ETEC PROF. BASILIDES DE GODOY',
                 tipoGrad: 'Técnico em Desenvolvimento de Sistemas',
                 dataInicio: '07/2019',

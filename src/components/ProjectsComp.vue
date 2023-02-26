@@ -28,14 +28,6 @@ export default {
         return {
             projects: [
                 {
-                    linkProject: 'https://www.alivisual.com.br/',
-                    titleProject: 'ALIVISUAL',
-                    dateProject: '11/2021',
-                    descProject: 'O site foi criado para a Alivisual, uma produtora de audiovisual e fotografia de São Paulo.',
-                    expProject: 'HTML ' + 'CSS ' + 'SASS ' + 'Bootstrap ' + 'JavaScript ' + 'PHP ' + 'Adobe_XD ' + 'Git ' + 'Github ' + 'SEO',
-                    typeLink: 'site'
-                },
-                {
                     linkProject: 'https://github.com/IsaacLouzeiro/economie',
                     titleProject: 'DEMODAY',
                     dateProject: '7/2021',

@@ -59,7 +59,7 @@ export default {
             subTitleCourses: 'Caso queira ver mais informações ou certificações obtidas, acesse o meu ',
             // ProjectsComp.vue
             titleProjects: 'PROJETOS',
-            subTitleProjects: 'Abaixo estão três projetos relevantes do meu portfolio. Caso queira ver mais, acesse o meu '
+            subTitleProjects: 'Abaixo estão dois projetos relevantes do meu portfolio. Caso queira ver mais, acesse o meu '
             
         }
     },

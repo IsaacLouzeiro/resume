@@ -24,13 +24,6 @@ export default {
         return {
             jobs: [
                 {
-                    titleJob: 'EXPERT EM INTERAÇÃO ELETRONICO',
-                    startJob: '09/2022',
-                    endJob: 'Atualmente',
-                    instJob: 'Teleperformance',
-                    descJob: 'Atendimento Multiskill (Voz, Chat, E-mail e Whatsapp); Realizar um atendimento direcionado aos clientes que utilizam o serviço de bilhetagem eletrônica.',
-                },
-                {
                     titleJob: 'JOVEM APRENDIZ',
                     startJob: '10/2021',
                     endJob: '08/2022',

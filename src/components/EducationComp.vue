@@ -17,8 +17,8 @@ export default {
             nome: 'EducationComp',
             formacao: [
             {
-                nomeGrad: 'FATEC - FACULDADE DE TECNOLOGIA DE FRANCO DA ROCHA',
-                tipoGrad: 'Tecnólogo em Gestão da Tecnologia da Informação (TI)',
+                nomeGrad: 'FATEC - FACULDADE DE TECNOLOGIA DE SÃO PAULO',
+                tipoGrad: 'Tecnólogo em Gestão da Tecnologia da Informação',
                 dataInicio: '02/2023',
                 dataFim: '12/2025'
             },

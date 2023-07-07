@@ -38,23 +38,14 @@ export default {
             link1: 'https://drive.google.com/file/d/157c1HMG3432ZdBmELVzHVsQuTrjINUkl/view?usp=sharing',
             link2: 'https://drive.google.com/file/d/11W5p16WwlpRrYhbBoQp0DU8araZL3jpe/view?usp=sharing',
             courses: [
-                // {
-                //     pdfCourse: 'https://drive.google.com/file/d/1ijyNb_BU0kDiRzmmZCFB3F7erWeJHAXT/view?usp=sharing',
-                //     titleCourse: 'CURSO DE INGLÊS',
-                //     startCourse: '07/2021',
-                //     endCourse: '12/2021',
-                //     instCourse: 'Soul Bilíngue',
-                //     loadCourse: '100h',
-                //     descCourse: 'Atividades relacionadas à imersão de inglês, desenvolvimento de soft skills e preparatório para intercâmbio intercultural.'
-                // },
                 {
                     pdfCourse: 'https://drive.google.com/file/d/1cREvAD0uaPLbr9qdhi94xuwrezsFcGIl/view?usp=sharing',
-                    titleCourse: 'WEBINAR CHECKOUT PRO',
-                    startCourse: '09/2021',
-                    endCourse: '',
-                    instCourse: 'Mercado Pago',
-                    loadCourse: '3h',
-                    descCourse: 'Programa de Certificação de Desenvolvedores do Mercado Pago, com o foco em Checkout PRO.'
+                    titleCourse: 'POTENCIA TECH ANGULAR DEVELOPER - POWERED BY IFOOD',
+                    startCourse: '03/2023',
+                    endCourse: '05/2023',
+                    instCourse: 'Digital Innovation One (DIO)',
+                    loadCourse: '75h',
+                    descCourse: 'Bootcamp de desenvolvimento front-end Angular + Typescript.'
                 },
                 {
                     pdfCourse: '',

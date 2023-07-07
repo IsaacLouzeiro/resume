@@ -21,7 +21,7 @@ export default {
                 },
                 {
                     typeSkill: 'Desenvolvimento Web',
-                    nameSkill: 'HTML, ' + 'CSS, ' + 'SCSS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'VueJS, ' + 'SEO, ' + 'Wordpress'
+                    nameSkill: 'HTML, ' + 'CSS, ' + 'SCSS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'TypeScript, ' + 'VueJS, ' + 'Angular, ' + 'Wordpress'
                 },
                 {
                     typeSkill: 'Gerenciador de Pacotes',
@@ -45,7 +45,7 @@ export default {
                 },
                 {
                     typeSkill: 'Ferramenta ágil',
-                    nameSkill: 'Trello'
+                    nameSkill: 'Trello,     ' + 'Asana'
                 }
             ]
         }

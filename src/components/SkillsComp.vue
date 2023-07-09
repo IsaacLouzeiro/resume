@@ -21,7 +21,7 @@ export default {
                 },
                 {
                     typeSkill: 'Desenvolvimento Web',
-                    nameSkill: 'HTML, ' + 'CSS, ' + 'SCSS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'TypeScript, ' + 'VueJS, ' + 'Angular, ' + 'Wordpress'
+                    nameSkill: 'HTML, ' + 'CSS, ' + 'SCSS, ' + 'Bootstrap, ' + 'JavaScript, ' + 'TypeScript, ' + 'VueJS, ' + 'Angular, ' + 'Java, ' + 'Wordpress'
                 },
                 {
                     typeSkill: 'Gerenciador de Pacotes',
